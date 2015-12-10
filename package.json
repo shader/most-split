@@ -1,0 +1,47 @@
+{
+  "name": "most-split",
+  "version": "0.0.0",
+  "description": "A function to split most.js streams of collections into a collection of streams",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shader/most-split.git"
+  },
+  "dependencies": {
+    "most": "*"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "latest",
+    "chai": "^3.2.0",
+    "del": "*",
+    "gulp": "*",
+    "gulp-babel": "*",
+    "gulp-changed": "*",
+    "gulp-load-plugins": "*",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "*",
+    "gulp-standard": "^5.1.0",
+    "gulp-uglify": "*",
+    "mocha": "^2.2.5",
+    "mocha-babel": "^3.0.0"
+  },
+  "scripts": {
+    "prepublish": "node_modules/gulp/bin/gulp.js",
+    "test": "$(npm bin)/mocha"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/shader/most-split/issues"
+  },
+  "homepage": "https://github.com/shader/most-split#readme",
+  "main": "dist/split.js",
+  "maintainers": [
+    {
+      "name": "shader",
+      "email": "emailium@gmail.com"
+    }
+  ],
+  "directories": {}
+}

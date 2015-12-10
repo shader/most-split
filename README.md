@@ -1,0 +1,1 @@
+most-split provides a function split(), which turns a most.js stream of collections (arrays or dictionaries) into similar collection of streams
