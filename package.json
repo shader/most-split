@@ -1,8 +1,8 @@
 {
   "name": "most-split",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A function to split most.js streams of collections into a collection of streams",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shader/most-split.git"
