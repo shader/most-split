@@ -16,7 +16,6 @@
     "del": "*",
     "gulp": "*",
     "gulp-babel": "*",
-    "gulp-changed": "*",
     "gulp-load-plugins": "*",
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "*",
@@ -43,5 +42,4 @@
       "email": "emailium@gmail.com"
     }
   ],
-  "directories": {}
 }

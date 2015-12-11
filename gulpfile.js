@@ -15,7 +15,6 @@ gulp.task('lint', function () {
 gulp.task('scripts', ['lint'], function() {
   return gulp.src('src/**/*.js')
     .pipe(p.plumber())
-    .pipe(p.changed('dist'))
     .pipe(p.babel({
 	  presets: ['es2015']
 	}))
